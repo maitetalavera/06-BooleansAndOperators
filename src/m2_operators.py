@@ -37,7 +37,7 @@ def less_than_or_equal_to(x, y):
 
 
 ###############################################################################
-# TODO: 1. (2 pts)
+# DONE: 1. (2 pts)
 #
 #   Write a line of code that returns True if the string
 #       t1 (defined above)
@@ -56,7 +56,8 @@ def less_than_or_equal_to(x, y):
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 
-
+print(t1 in txt)
+print(t2 in txt)
 ###############################################################################
 # TODO: 1. (1 pt)
 #
@@ -68,3 +69,5 @@ def less_than_or_equal_to(x, y):
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+print(t1 not in txt)
+print(t2 not in txt)
